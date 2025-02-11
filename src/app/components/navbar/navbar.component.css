@@ -1,0 +1,62 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #0F1624;
+    color:rgba(255, 255, 255, 0.60);
+    margin-bottom: 50px;
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .brand-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-center {
+    display: flex;
+    gap: 60px;
+  }
+  
+  .nav-link {
+    color:rgba(255, 255, 255, 0.60);
+    text-decoration: none;
+    font-size: 1.19rem;
+    line-height: 36px;
+    transition: 0.4s;
+  }
+  
+  .nav-link:hover {
+    color: hsl(204,23.8%,95.9%);
+  }
+  
+  .nav-right {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+  }
+  
+  .icon {
+    width: 33px;
+    height: 33px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  
