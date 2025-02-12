@@ -1,0 +1,29 @@
+.desc-container
+{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.60);
+    position: relative;
+    right: 14%;
+    bottom: 500px;
+}
+
+h1
+{
+    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+    text-align: center;
+    position: relative;
+    right: 3%;
+}
+
+p
+{
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
