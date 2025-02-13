@@ -1,0 +1,17 @@
+.div-container
+{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    bottom: 395px;
+    right: -10.7%;
+}
+
+.divider
+{
+    width: 64px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+

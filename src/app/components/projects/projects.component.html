@@ -1,0 +1,24 @@
+<div class="pro-container">
+    <section class="section" id="projects">
+        <h1>Projects</h1>
+        <div class="grid-container">
+          <div *ngFor="let p of projects; let i = index" class="blog-card">
+            <img [src]="p.image" alt="Project Image" class="img">
+            <div class="title-content">
+              <h3 [class.header-three]="true">{{ p.title }}</h3>
+              <hr class="hr">
+            </div>
+            <p class="card-info">{{ p.description }}</p>
+            <div>
+              <div class="title-content">Stack</div>
+              <ul class="tag-list">
+                <li *ngFor="let t of p.tags; let j = index" class="tag">{{ t }}</li>
+              </ul>
+            </div>
+            <ul class="utility-list">
+              <li><a [href]="p.source" class="external-links">Source</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+</div>

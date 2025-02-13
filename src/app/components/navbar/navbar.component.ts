@@ -13,17 +13,19 @@ import { Component } from '@angular/core';
   <div class="nav-center">
     <a href="#" class="nav-link">Projects</a>
     <a href="#" class="nav-link">Technologies</a>
+    <a href="#" class="nav-link">Certifications</a>
+    <a href="#" class="nav-link">Experiences</a>
     <a href="#" class="nav-link">About</a>
   </div>
 
   <div class="nav-right">
-    <a href="https://github.com" target="_blank">
+    <a href="https://github.com/Naveen2005official" target="_blank">
       <img src="https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=FFFFFF" alt="GitHub" class="icon" />
     </a>
-    <a href="https://linkedin.com" target="_blank">
+    <a href="https://www.linkedin.com/in/naveen-kumar-senthil-murugan-b0730825a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
       <img src="https://img.icons8.com/?size=100&id=8808&format=png&color=FFFFFF" alt="LinkedIn" class="icon" />
     </a>
-    <a href="https://instagram.com" target="_blank">
+    <a href="https://leetcode.com/u/Naveen_Kumar_S_07/" target="_blank">
       <img src="https://img.icons8.com/?size=100&id=PZknXs9seWCp&format=png&color=FFFFFF" alt="LeetCode" class="icon" />
     </a>
   </div>
