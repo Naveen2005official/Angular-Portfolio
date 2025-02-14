@@ -1,0 +1,15 @@
+<div class="cer-container">
+    <h1>Certifications</h1>
+    <div class="grid-container">
+        <div *ngFor="let c of certifications; let i = index" class="blog-card">
+            <img [src]="c.image" alt="Certification Image" class="img">
+            <div class="title-content">
+              <h3 [class.header-three]="true">{{ c.title }}</h3>
+              <hr class="hr">
+            </div>
+            <ul class="utility-list">
+                <li><a [href]="c.source" class="external-links">View</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

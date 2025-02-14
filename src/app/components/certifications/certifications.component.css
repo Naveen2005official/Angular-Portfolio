@@ -1,4 +1,4 @@
-.pro-container
+.cer-container
 {
     max-width: 1000px;
     width: 100%;
@@ -6,7 +6,7 @@
     position: relative;
     right: -11.5%;
     bottom: 395px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 h1
@@ -19,6 +19,7 @@ h1
     text-align: left;
     position: relative;
     right: 1%;
+    margin-bottom: 1%;
 }
 
 .grid-container {
@@ -28,6 +29,7 @@ h1
     place-items: center;
     column-gap: 3rem;
     row-gap: 3rem;
+    margin-top: 50px;
   
     @media (max-width: 768px) {
       display: flex;
@@ -53,7 +55,6 @@ h1
     z-index: 20;
     width: 100%;
   }
-  
   .header-three {
     font-weight: 500;
     letter-spacing: 2px;
@@ -69,26 +70,13 @@ h1
     border: 0;
     background: #d0bb57;
   }
-  
-  .card-info {
-    width: 75%;
-    padding: 10px 50px;
-    color: #e4e6e7;
-    font-style: 2rem;
-    line-height: 24px;
-    text-align: justify;
-  
-    @media (max-width: 768px) {
-      padding: 0.3rem;
-    }
-  }
-  
+
   .utility-list {
     list-style-type: none;
     padding: 0;
     display: flex;
     justify-content: space-around;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 2.5rem;
     margin-left: 0;
     margin-right: 0;
@@ -107,38 +95,22 @@ h1
       background: #801414;
     }
   }
+
+  /* Image styles */
+  .img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: top;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
   
-  .tag-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5rem;
-    padding: 0.5rem 1rem;
-    list-style: none;
-    text-align: center;
-    color: #af9c9c;
-}
-
-.tag {
-    flex: 1 1 calc(33.33% - 0.5rem);
-    max-width: calc(33.33% - 0.5rem);
-    text-align: center;
-    box-sizing: border-box;
-    margin-bottom: 15px;
-}
-
-/* Image styles */
-.img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Hover effect */
-.img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
-}
+  /* Hover effect */
+  .img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  }
+  

@@ -1,0 +1,82 @@
+.tec-container
+{
+    max-width: 1000px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.60);
+    position: relative;
+    right: -11.5%;
+    bottom: 395px;
+    margin-bottom: 30px;
+}
+
+h1
+{
+    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+    text-align: left;
+    position: relative;
+    right: 1%;
+    margin-bottom: 1%;
+}
+
+.section-text {
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 0%;
+    margin-bottom: 40px;
+    max-width: 800px;
+    line-height: 1.8;
+  }
+  
+  .list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 3rem 0;
+    justify-content: flex-start; /* Align list items to the left */
+    text-align: left;
+  }
+  
+  /* Individual list item */
+  .list-item {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+    text-align: left;
+  }
+  
+  /* Icon styles */
+  .icon {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 0px;
+  }
+  
+  /* List container for title and paragraph */
+  .list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+    margin-top: 0%;
+}
+  
+  /* List title */
+  .list-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 0px;
+    margin-top: 5%;
+  }
+  
+  /* List paragraph */
+  .list-paragraph {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.6;
+    margin-top: 3%;
+  }

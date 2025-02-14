@@ -1,12 +1,12 @@
-.desc-container
+.ex-container
 {
-    max-width: 420px;
+    max-width: 1000px;
     width: 100%;
-    margin: auto;
     color: rgba(255, 255, 255, 0.60);
     position: relative;
-    right: 20%;
-    bottom: 500px;
+    right: -11.5%;
+    bottom: 395px;
+    margin-bottom: 100px;
 }
 
 h1
@@ -19,10 +19,4 @@ h1
     text-align: left;
     position: relative;
     right: 1%;
-}
-p
-{
-    text-align: left;
-    font-size: 1.4rem;
-    line-height: 1.8;
 }
