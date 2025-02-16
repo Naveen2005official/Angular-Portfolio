@@ -1,0 +1,24 @@
+.ab-container
+{
+    max-width: 1000px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.60);
+    position: relative;
+    right: -11.5%;
+    bottom: 395px;
+    margin-bottom: 70px;
+    margin-top: 35px;
+}
+
+h1
+{
+    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+    text-align: left;
+    position: relative;
+    right: 1%;
+    margin-bottom: 1%;
+}

@@ -7,11 +7,14 @@ import { ProjectsComponent } from '../projects/projects.component';
 import { TechnologiesComponent } from '../technologies/technologies.component';
 import { CertificationsComponent } from '../certifications/certifications.component';
 import { ExperiencesComponent } from '../experiences/experiences.component';
+import { SkillsComponent } from '../skills/skills.component';
+import { ProfileComponent } from '../profile/profile.component';
+import { AboutComponent } from '../about/about.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavbarComponent, BgAnimationComponent, DescriptionComponent, DividerComponent, ProjectsComponent, TechnologiesComponent, CertificationsComponent, ExperiencesComponent],
+  imports: [NavbarComponent, BgAnimationComponent, DescriptionComponent, DividerComponent, ProjectsComponent, TechnologiesComponent, CertificationsComponent, ExperiencesComponent, SkillsComponent, ProfileComponent, AboutComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

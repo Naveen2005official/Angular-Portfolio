@@ -8,12 +8,6 @@
     margin-bottom: 50px;
   }
   
-  .nav-left {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
   .logo {
     width: 30px;
     height: 30px;
@@ -28,7 +22,7 @@
   
   .nav-center {
     display: flex;
-    gap: 60px;
+    gap: 70px;
   }
   
   .nav-link {

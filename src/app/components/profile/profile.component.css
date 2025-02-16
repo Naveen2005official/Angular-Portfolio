@@ -1,0 +1,17 @@
+.pr-container
+{
+    position: absolute;
+    top: 15%;
+    height: 328px;
+    width: 328px;
+    border-radius: 50%;
+    border: 10px solid #233a68;
+}
+
+img
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 15px solid #1f3052;
+}

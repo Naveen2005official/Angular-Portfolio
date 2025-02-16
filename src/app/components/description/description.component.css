@@ -5,7 +5,7 @@
     margin: auto;
     color: rgba(255, 255, 255, 0.60);
     position: relative;
-    right: 20%;
+    right: 3%;
     bottom: 500px;
 }
 
@@ -19,7 +19,23 @@ h1
     text-align: left;
     position: relative;
     right: 1%;
+    margin-bottom: 0%;
 }
+
+.typo
+{
+    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.7rem;
+    text-align: left;
+    position: relative;
+    right: 1%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
 p
 {
     text-align: left;
