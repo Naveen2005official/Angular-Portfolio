@@ -1,10 +1,11 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
+import { DividerComponent } from '../divider/divider.component';
 
 @Component({
   selector: 'app-technologies',
   standalone: true,
-  imports: [NgFor],
+  imports: [NgFor, DividerComponent],
   templateUrl: './technologies.component.html',
   styleUrl: './technologies.component.css'
 })

@@ -4,9 +4,15 @@
     width: 100%;
     margin: auto;
     color: rgba(255, 255, 255, 0.60);
-    position: relative;
-    right: 3%;
-    bottom: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.d-container
+{
+    width: 470px;
+    margin-left: 0;
 }
 
 h1
@@ -17,9 +23,9 @@ h1
     -webkit-text-fill-color: transparent;
     font-size: 3.5rem;
     text-align: left;
-    position: relative;
-    right: 1%;
     margin-bottom: 0%;
+    font-weight: bold;
+    width: 500px;
 }
 
 .typo
@@ -30,8 +36,6 @@ h1
     -webkit-text-fill-color: transparent;
     font-size: 2.7rem;
     text-align: left;
-    position: relative;
-    right: 1%;
     margin-top: 0%;
     margin-bottom: 0%;
 }

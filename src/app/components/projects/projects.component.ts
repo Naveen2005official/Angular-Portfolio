@@ -1,10 +1,11 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
+import { DividerComponent } from '../divider/divider.component';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [NgFor],
+  imports: [NgFor,DividerComponent],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.css'
 })

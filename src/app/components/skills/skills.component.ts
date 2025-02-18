@@ -1,10 +1,11 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
+import { DividerComponent } from '../divider/divider.component';
 
 @Component({
   selector: 'app-skills',
   standalone: true,
-  imports: [NgFor],
+  imports: [NgFor, DividerComponent],
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.css'
 })
@@ -13,7 +14,7 @@ export class SkillsComponent {
     {
       icon: 'https://img.icons8.com/?size=100&id=xYlFNxNeJAzA&format=png&color=FFFFFF',
       title: 'Problem Solving',
-      description: 'Strong Foundation in Java, Solved Problems in the Platforms such as LeetCode and GeeksForGeeks.'
+      description: 'Strong Foundation in Java, Solved 300+ Problems in the Platforms such as LeetCode and GeeksForGeeks.'
     },
     {
       icon: 'https://img.icons8.com/?size=100&id=gQNhirAtrNg1&format=png&color=FFFFFF',

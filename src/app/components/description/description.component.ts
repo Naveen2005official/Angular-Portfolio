@@ -2,11 +2,13 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, Inject, PLATFORM_ID, ViewChild } from '@angular/core';
 import { NgxTypedJsModule } from 'ngx-typed-js';
 import Typed from 'typed.js';
+import { BgAnimationComponent } from '../bg-animation/bg-animation.component';
+import { ProfileComponent } from '../profile/profile.component';
 
 @Component({
   selector: 'app-description',
   standalone: true,
-  imports: [CommonModule, NgxTypedJsModule],
+  imports: [CommonModule, NgxTypedJsModule, BgAnimationComponent, ProfileComponent],
   templateUrl: './description.component.html',
   styleUrl: './description.component.css'
 })

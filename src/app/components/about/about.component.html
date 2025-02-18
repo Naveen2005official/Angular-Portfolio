@@ -1,5 +1,45 @@
-<div class="ab-container">
+<div class="ab-container" id="about">
+    <app-divider></app-divider>
     <h1>
-        About
+        About Me
     </h1>
+    <p>
+        I am a highly determined and self-possessed individual who thrives on smart work, responsibility, and teamwork. With a strong sense of discipline and interdependence, I excel in multi-tasking and constantly seek knowledge to stay ahead in technology. My ability to adapt quickly, think critically, and implement effective solutions enables me to optimize processes and develop innovative strategies. Passionate about continuous learning and self-improvement, I embrace challenges that push my limits and allow me to make a meaningful impact in any environment.    </p>
+    <section>
+        <ul class="carousel-container" #carouselRef (scroll)="handleScroll()">
+          <ng-container *ngFor="let item of timeLineData; let index = index">
+            <div class="carousel-mobile-scroll-node" [class.final]="index === totalCarouselCount - 1">
+              <div class="carousel-item" [class.active]="activeItem === index" (click)="handleClick($event, index)">
+                <h4 class="carousel-item-title">
+                  {{ item.year }}
+                  <svg class="carousel-item-img" width="208" height="6" viewBox="0 0 208 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 5.5C3.88071 5.5 5 4.38071 5 3V3.5L208 3.50002V2.50002L5 2.5V3C5 1.61929 3.88071 0.5 2.5 0.5C1.11929 0.5 0 1.61929 0 3C0 4.38071 1.11929 5.5 2.5 5.5Z" fill="url(#paint0_linear)" fill-opacity="0.33" />
+                    <defs>
+                      <linearGradient id="paint0_linear" x1="-4.30412e-10" y1="0.5" x2="208" y2="0.500295" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="white" />
+                        <stop offset="0.79478" stop-color="white" stop-opacity="0" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </h4>
+                <p class="carousel-item-text">{{ item.text }}</p>
+              </div>
+            </div>
+          </ng-container>
+        </ul>
+        <div class="carousel-buttons">
+          <button *ngFor="let item of timeLineData; let index = index" class="carousel-button" [class.active]="activeItem === index" (click)="handleClick($event, index)">
+            <div class="carousel-button-dot" [class.active]="activeItem === index"></div>
+          </button>
+        </div>
+        <div class="social-container">
+          <a class="social-icons" href="https://drive.google.com/file/d/1LRtYiOI3MqNKeGvWfXNXpAXFTvbmS16X/view?usp=sharing">
+            <svg width="1.7rem" height="1.7rem" fill="white">
+                <image class="pdf" href="https://img.icons8.com/?size=100&id=10421&format=png&color=FFFFFF"/>
+            </svg>
+          </a>
+         <p class="resume">RESUME</p>
+        </div>
+        <br />
+      </section>
 </div>

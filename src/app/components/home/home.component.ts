@@ -10,11 +10,13 @@ import { ExperiencesComponent } from '../experiences/experiences.component';
 import { SkillsComponent } from '../skills/skills.component';
 import { ProfileComponent } from '../profile/profile.component';
 import { AboutComponent } from '../about/about.component';
+import { MoreComponent } from '../more/more.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavbarComponent, BgAnimationComponent, DescriptionComponent, DividerComponent, ProjectsComponent, TechnologiesComponent, CertificationsComponent, ExperiencesComponent, SkillsComponent, ProfileComponent, AboutComponent],
+  imports: [NavbarComponent, DescriptionComponent, ProjectsComponent, TechnologiesComponent, CertificationsComponent, ExperiencesComponent, SkillsComponent, AboutComponent, MoreComponent, FooterComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

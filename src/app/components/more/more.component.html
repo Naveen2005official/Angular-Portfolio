@@ -1,0 +1,15 @@
+<div class="mr-container">
+    <app-divider></app-divider>
+    <h1>
+        More
+    </h1>
+    <section>
+        <div class="boxes">
+          <div class="box" *ngFor="let card of data; let i = index">
+            <p class="box-text">{{ card.text }}</p>
+            <p class="box-text1">{{ card.text1 }}</p>
+          </div>
+        </div>
+    </section>
+    <app-divider></app-divider>
+</div>

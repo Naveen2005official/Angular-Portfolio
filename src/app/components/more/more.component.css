@@ -1,0 +1,126 @@
+.mr-container
+{
+    max-width: 1000px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.60);
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+h1
+{
+    background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+section {
+    margin-top: 50px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .boxes {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 24px 0 40px;
+  
+    @media (max-width: 768px) {
+      gap: 16px;
+      margin: 20px 0 32px;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+  
+    @media (max-width: 480px) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      max-width: 500px;
+      margin: 24px auto;
+    }
+  }
+  
+  .box {
+    background: #212D45;
+    border-radius: 12px;
+    height: auto;
+    padding: 24px;
+  
+    @media (max-width: 1024px) {
+      height: 210px;
+    }
+  
+    @media (max-width: 768px) {
+      height: 135px;
+      padding: 16px;
+    }
+  
+    @media (max-width: 480px) {
+      height: 110px;
+      padding: 12px;
+  
+      &:nth-child(2n) {
+        grid-row: 2;
+      }
+    }
+  }
+ 
+  
+  .box-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+  
+    @media (max-width: 768px) {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  
+    @media (max-width: 480px) {
+      font-size: 10px;
+      line-height: 14px;
+    }
+  }
+
+  .box-text1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.75);
+    margin: 20px;
+    text-align: justify;
+  
+    @media (max-width: 768px) {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  
+    @media (max-width: 480px) {
+      font-size: 10px;
+      line-height: 14px;
+    }
+  }
+  
+  .section-divider {
+    border-bottom: 1px solid #ccc;
+    margin: 2rem 0;
+  }
